@@ -1,0 +1,10 @@
+.Title {
+  margin-top: 3px;
+}
+.Fields {
+  margin-top: 5px;
+  row-gap: 12px;
+  margin-bottom: 2px;
+}
+.Fields dl {
+}

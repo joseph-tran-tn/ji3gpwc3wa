@@ -1,0 +1,154 @@
+@font-face {
+  font-family: "Alex Vinahouse World";
+  src: url(/fonts/AlexBook.otf) format("otf"),
+    url(/fonts/AlexBook.woff) format("woff"),
+    url(/fonts/AlexBook.woff2) format("woff2");
+}
+@font-face {
+  font-family: "Alex Mild World";
+  src: url(/fonts/inkr-mild-world.ttf) format("ttf"),
+    url(/fonts/AlexMildWorld.woff) format("woff"),
+    url(/fonts/AlexMildWorld.woff2) format("woff2");
+}
+@font-face {
+  font-family: "Komika Text Kaps";
+  src: url(/fonts/KOMTXTK_.ttf) format("ttf"),
+    url(/fonts/KomikaTextKaps.woff) format("woff"),
+    url(/fonts/KomikaTextKaps.woff2) format("woff2");
+}
+@font-face {
+  font-family: "Alita Brush";
+  src: url(/fonts/AlitaBrush.ttf) format("ttf"),
+    url(/fonts/AlitaBrush-Regular.woff) format("woff"),
+    url(/fonts/AlitaBrush-Regular.woff2) format("woff2");
+}
+@font-face {
+  font-family: "Denk One";
+  src: url(/fonts/DenkOne-Regular.ttf) format("ttf"),
+    url(/fonts/DenkOne-Regular.woff) format("woff"),
+    url(/fonts/DenkOne-Regular.woff2) format("woff2");
+}
+
+* {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+*.selectable {
+  -webkit-touch-callout: text;
+  -webkit-user-select: text;
+  -khtml-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+}
+
+body {
+  font-family: "SF Pro Text", sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 32px;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.sidebar-box {
+  padding: 12px 16px;
+}
+.sidebar-box-bordered,
+.sidebar-box:not(:last-child) {
+  box-shadow: inset 0px -1px 0px #f0f0f0;
+}
+.sidebar-box h2 {
+  line-height: 32px;
+  font-weight: 500;
+  margin-bottom: 0;
+  letter-spacing: 0.02em;
+}
+
+.fields {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  gap: 15px 0;
+}
+.fields dl {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0;
+}
+.fields dl dt {
+  opacity: 0.25;
+  width: 16px;
+  text-align: center;
+  line-height: 1;
+}
+.fields dl dd {
+  margin-bottom: 0;
+}
+.fields dd.disabled {
+  opacity: 0.25;
+}
+.field-row-flex {
+  display: flex;
+  align-items: center;
+}
+.field-row-flex > * {
+  width: 50%;
+}
+.field-select-outer .ant-select {
+  margin-left: -11px;
+}
+.no-opacity {
+  opacity: 1 !important;
+}
+.color-picker {
+  width: 16px;
+  height: 16px;
+  padding: 0;
+  margin: 0;
+  appearance: none;
+  border: 0;
+  background-color: transparent;
+}
+.color-picker::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+.color-picker::-webkit-color-swatch {
+  border: none;
+  border-radius: 2px;
+}
+.field-group {
+  padding-bottom: 16px;
+  box-shadow: inset 0px -1px 0px #f0f0f0;
+}

@@ -1,0 +1,121 @@
+.Outer {
+  opacity: 0;
+}
+.Outer.Selected {
+  opacity: 1;
+}
+.Outer,
+.TransformController {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.ControlTop,
+.ControlBottom,
+.ControlLeft,
+.ControlRight {
+  position: absolute;
+  background-color: #1890ff;
+  z-index: 3;
+}
+.ControlTop {
+  width: 100%;
+  height: 2px;
+  top: 0;
+  left: 0;
+}
+.Outer.Selected .TransformController .ControlTop {
+  cursor: ns-resize;
+}
+.ControlBottom {
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+}
+.Outer.Selected .TransformController .ControlBottom {
+  cursor: ns-resize;
+}
+.ControlLeft {
+  height: 100%;
+  width: 2px;
+  top: 0;
+  left: 0;
+}
+.Outer.Selected .TransformController .ControlLeft {
+  cursor: ew-resize;
+}
+.ControlRight {
+  height: 100%;
+  width: 2px;
+  top: 0;
+  right: 0;
+}
+.Outer.Selected .TransformController .ControlRight {
+  cursor: ew-resize;
+}
+.ControlLeftTop,
+.ControlRightTop,
+.ControlLeftBottom,
+.ControlRightBottom,
+.ControlRotation {
+  border: 2px solid #1890ff;
+  background-color: #fff;
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  z-index: 3;
+  /* opacity: 0; */
+  visibility: hidden;
+}
+.Outer.Selected .TransformController .ControlLeftTop,
+.Outer.Selected .TransformController .ControlRightTop,
+.Outer.Selected .TransformController .ControlLeftBottom,
+.Outer.Selected .TransformController .ControlRightBottom,
+.Outer.Selected .TransformController .ControlRotation {
+  /* opacity: 1; */
+  visibility: visible;
+}
+.ControlRotation {
+  z-index: 2;
+}
+.ControlLeftTop {
+  top: -2px;
+  left: -2px;
+  cursor: nwse-resize;
+}
+.ControlRightTop {
+  right: -2px;
+  top: -2px;
+  cursor: nesw-resize;
+}
+.ControlLeftBottom {
+  left: -2px;
+  bottom: -2px;
+  cursor: nesw-resize;
+}
+.ControlRightBottom {
+  right: -2px;
+  bottom: -2px;
+  cursor: nwse-resize;
+}
+.ControlRotation {
+  border-radius: 100vmax;
+  top: -18px;
+  left: calc(50% - 2px);
+  cursor: url("data:image/svg+xml,%3Csvg width='21' height='22' viewBox='0 0 21 22' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg%3E%3Cpath d='M7.24586 3.87174L4.55234 8.5031L9.91063 8.41881L8.92899 6.74377C11.2655 5.80814 13.9804 6.65459 15.2631 8.84382C15.2685 8.85328 15.274 8.86274 15.2795 8.8722C16.672 11.2842 15.8113 14.4076 13.3508 15.8485C12.1542 16.5493 10.7622 16.7525 9.43113 16.4206C8.09995 16.0886 6.9894 15.2613 6.30366 14.0912C5.77815 13.2127 5.55169 12.1875 5.63604 11.1575L4.3608 11.0794C4.2555 12.3657 4.54193 13.6266 5.19351 14.7411C6.04928 16.2014 7.43519 17.2337 9.09607 17.6479C10.7569 18.0621 12.494 17.8087 13.987 16.9343C17.0573 15.136 18.1316 11.2385 16.3936 8.22893C16.3868 8.21718 16.38 8.20528 16.3733 8.19368C14.7391 5.40466 11.24 4.35577 8.28466 5.64397L7.24586 3.87174Z' fill='black'/%3E%3C/g%3E%3C/svg%3E")
+      11 11,
+    auto;
+}
+.ControlRotation:before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: calc(50% - 1px);
+  height: 14px;
+  width: 2px;
+  background-color: #1890ff;
+  z-index: 2;
+}

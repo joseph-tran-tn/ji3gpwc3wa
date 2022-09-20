@@ -1,0 +1,131 @@
+{
+  "title": "Why Am I Being Doted on by Mr. Pervert?",
+  "name": "Chapter 1",
+  "fileOIDs": [
+    "ls-cFile-448310"
+  ],
+  "filesMap": {
+    "ls-cFile-448310": {
+      "oid": "ls-cFile-448310",
+      "name": "page_00000.jpg",
+      "objectOIDs": [
+        "text-tOYaiWL1l5jggPIJCQa6w"
+      ],
+      "objectsMap": {
+        "text-tOYaiWL1l5jggPIJCQa6w": {
+          "oid": "text-tOYaiWL1l5jggPIJCQa6w",
+          "type": "text",
+          "order": 0,
+          "version": "2.1",
+          "visible": true,
+          "transform": {
+            "size": {
+              "width": 313.62051702777495,
+              "height": 105.29940637838484
+            },
+            "center": {
+              "x": 216.36615811373088,
+              "y": 84.32732316227475
+            },
+            "rotation": 0
+          },
+          "translation": {
+            "value": {
+              "style": {
+                "autoSizing": {
+                  "width": false,
+                  "height": false
+                },
+                "verticalAlign": "middle"
+              },
+              "children": [
+                {
+                  "style": {
+                    "align": "center"
+                  },
+                  "children": [
+                    {
+                      "style": {
+                        "font": {
+                          "size": 84.08599239250518,
+                          "style": "normal",
+                          "family": "Alex Vinahouse World",
+                          "weight": "normal"
+                        },
+                        "color": "#ffffff",
+                        "shadow": {},
+                        "stroke": {
+                          "color": "#fe70ae",
+                          "width": 3,
+                          "enabled": true
+                        },
+                        "lineSpacing": 1
+                      },
+                      "children": "YUTA NEKODO"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "transcription": {
+            "box": [
+              {
+                "x": 64.386079446949,
+                "y": 48.867675104022
+              },
+              {
+                "x": 481.584415091886,
+                "y": 48.867675104022
+              },
+              {
+                "x": 481.584415091886,
+                "y": 264.124263176144
+              },
+              {
+                "x": 64.386079446949,
+                "y": 264.124263176144
+              }
+            ],
+            "value": "6,22"
+          }
+        }
+      },
+      "bubbleIDs": [
+        "RzvAWVqvLX55pHMF02kiS0.mask.png"
+      ],
+      "bubblesMap": {
+        "RzvAWVqvLX55pHMF02kiS0.mask.png": {
+          "id": "RzvAWVqvLX55pHMF02kiS0.mask.png",
+          "url": "https://localization-system.s3.amazonaws.com/projects/ls-project-299/chapters/ls-chapter-24293/3df53fb8ae555077109bba8aa77606f8.png",
+          "frame": {
+            "x": 0,
+            "y": 0,
+            "width": 1600,
+            "height": 2276
+          },
+          "type": "bubble"
+        }
+      },
+      "translateImage": {
+        "url": "https://localization-system.s3.amazonaws.com/projects/ls-project-299/chapters/ls-chapter-24293/066009ea36a0cf2bde58579042451218.jpg"
+      },
+      "typesetImage": {
+        "url": "https://localization-system.s3.amazonaws.com/projects/ls-project-299/chapters/ls-chapter-24293/27831c1f1e971a901733e20ca08abdae.png",
+        "size": {
+          "width": 1600,
+          "height": 2276
+        }
+      },
+      "size": {
+        "width": 1600,
+        "height": 2276
+      },
+      "originalImageS3Key": null,
+      "storageFileUUID": null
+    }
+  },
+  "collaborators": [
+    "auth0|60ed9dbd414fe200702a4a24"
+  ]
+}

@@ -1,0 +1,15 @@
+.Page {
+  margin: 0 auto;
+  position: relative;
+  background-color: #eee;
+  transform-origin: center top;
+  overflow: hidden;
+}
+
+.PageInner {
+  transform-origin: center top;
+}
+
+.Image {
+  pointer-events: none;
+}

@@ -1,0 +1,11 @@
+.PageSelected {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 24px;
+}
+.Button {
+  background-color: #f5f5f5;
+  border: 0;
+  margin-left: -10px;
+}

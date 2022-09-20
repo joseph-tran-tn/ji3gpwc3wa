@@ -1,0 +1,15 @@
+.Title {
+  line-height: 32px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.Name {
+  line-height: 16px;
+  font-weight: normal;
+}
+.Name span,
+.Name a {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 13px;
+}

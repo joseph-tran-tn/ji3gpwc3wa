@@ -1,0 +1,11 @@
+.Image {
+  display: inline-block;
+  border: 1px solid #d9d9d9;
+  background-color: #fff;
+  padding: 6px;
+}
+.ImageInner {
+  background: url("/images/bg-transparent.svg") center;
+  background-size: 100%;
+  line-height: 1;
+}
